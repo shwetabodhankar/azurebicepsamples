@@ -3,13 +3,13 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "storagePrefix": {
-      "value": "mystorage"  // Ensure this is between 3 and 11 characters
+      "value": "mystorage"  
     },
     "storageSKU": {
-      "value": "Standard_LRS"  // Choose one from the allowed values
+      "value": "Standard_LRS"  
     },
     "location": {
-      "value": "eastus"  // Specify the Azure region
+      "value": "eastus"  
     }
   }
 }
