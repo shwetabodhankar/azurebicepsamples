@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "storagePrefix": {
+      "value": "mystorage"  // Ensure this is between 3 and 11 characters
+    },
+    "storageSKU": {
+      "value": "Standard_LRS"  // Choose one from the allowed values
+    },
+    "location": {
+      "value": "eastus"  // Specify the Azure region
+    }
+  }
+}
