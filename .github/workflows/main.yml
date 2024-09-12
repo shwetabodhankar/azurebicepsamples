@@ -19,4 +19,5 @@ jobs:
           subscriptionId: e2b5a834-44ee-48a3-866d-dc106a68e0dc
           resourceGroupName: exampleRG
           template: ./main.bicep
+          parameters: ./parameters.bicepparam
           failOnStdErr: false
